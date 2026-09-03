@@ -4,6 +4,7 @@ This presentation summarizes the RAG PDF Assistant built using **Python, LangCha
 
 The 8 slides explain the complete RAG flow from uploading a PDF to retrieving relevant information and generating a grounded answer.
 
+
 ---
 
 RAG PDF Assistant: Learning Mind Map
@@ -22,6 +23,8 @@ Provides a high-level overview of all the major components used in the RAG appli
 - LangSmith
 - LangChain
 
+![Alt text](https://github.com/learn-genai-labs/RAG-PDF/blob/ad215a1bfd1ac685f7bbc36f1518b236190484cc/Assets/RAG_Components.png)
+
 ### What It Explains
 RAG stands for **Retrieval-Augmented Generation**.
 
@@ -36,6 +39,8 @@ Instead of sending the entire PDF directly to the AI model, the application firs
 
 ### Purpose
 Explains the complete end-to-end RAG pipeline and separates it into two major phases.
+
+![Alt text](https://github.com/learn-genai-labs/RAG-PDF/blob/ad215a1bfd1ac685f7bbc36f1518b236190484cc/Assets/Big_Picture.png)
 
 ### Phase 1 – Indexing
 
@@ -74,6 +79,8 @@ LangChain splits the text into chunks
 OpenAI Embedding Model converts chunks into vectors  
 ↓  
 FAISS stores/searches the vectors
+
+![Alt text](https://github.com/learn-genai-labs/RAG-PDF/blob/ad215a1bfd1ac685f7bbc36f1518b236190484cc/Assets/Operation1_Embed_pdf.png)
 
 ### Embedding Model Used
 
