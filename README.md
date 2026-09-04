@@ -116,6 +116,8 @@ LangChain also maintains the relationship between the vector and its original ch
 ### Purpose
 Explains what happens when the user asks a question.
 
+![Alt text](https://github.com/learn-genai-labs/RAG-PDF/blob/52142c3433f17b3a857c60a69a573e2c01e8c528/Assets/Operation2_Embed_User_Question.png)
+
 Example question:
 
 `What does Step 2 say?`
@@ -158,8 +160,9 @@ The PDF chunks and the user question are embedded using the same embedding model
 
 ### Purpose
 Explains the connection between FAISS retrieval and GPT-4.1-mini.
-
 This is the most important RAG relationship.
+
+![Alt text](https://github.com/learn-genai-labs/RAG-PDF/blob/52142c3433f17b3a857c60a69a573e2c01e8c528/Assets/How_GPT_Receives_the_Right_Information.png)
 
 ### Flow
 
@@ -216,6 +219,8 @@ Both are accessed using the same:
 `OPENAI_API_KEY`
 
 but they perform completely different jobs.
+
+![Alt text](https://github.com/learn-genai-labs/RAG-PDF/blob/52142c3433f17b3a857c60a69a573e2c01e8c528/Assets/Why_OpenAI_Used_Twice.png)
 
 ### OpenAI Embedding Model
 
@@ -277,6 +282,8 @@ The `OPENAI_API_KEY` is the credential that allows the application to access bot
 
 ### Purpose
 Explains the additional components required to make the RAG application usable, secure, efficient, and observable.
+
+![Alt text](https://github.com/learn-genai-labs/RAG-PDF/blob/52142c3433f17b3a857c60a69a573e2c01e8c528/Assets/Supporting%20concepts.png)
 
 ### Streamlit
 Provides the browser-based user interface.
@@ -367,6 +374,7 @@ Relevant Original PDF Chunks
 ↓  
 Context + Original Question  
 ↓  
+
 GPT-4.1-mini  
 ↓  
 Answer
